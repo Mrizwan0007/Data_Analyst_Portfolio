@@ -1,0 +1,26 @@
+{
+  "siteTitle": "Muhammad Rizwan | Data Analyst",
+  "name": "Rizwan",
+  "initials": "MR",
+  "role": "Data Analyst & AI Enthusiast",
+  "email": "mhdrizwan0007@gmail.com",
+  "intro": "I design and build intelligent products that turn complex data into useful experiences.",
+  "about": "I build practical Dashboards, products with a focus on generative AI, machine learning, thoughtful UX, and reliable engineering.",
+  "github": "https://github.com/Mrizwan0007",
+  "linkedin": "https://www.linkedin.com/in/muhammad-rizwan-data-analyst/",
+  "stats": [["04+", "Years building"], ["28", "Projects shipped"], ["12", "AI experiments"]],
+  "skills": [["✦", "Generative AI", "Advanced"], ["⌘", "Python & APIs", "Advanced"], ["◈", "Data & ML", "Advanced"], ["◌", "Product Design", "Strong"]],
+  "services": [
+    ["01", "AI Product Strategy", "Turn a promising AI idea into a clear roadmap, validated use case, and measurable product plan."],
+    ["02", "Generative AI Systems", "Build reliable RAG assistants, copilots, evaluation pipelines, and production-ready LLM workflows."],
+    ["03", "ML Engineering", "Design data pipelines, forecasting models, APIs, and dashboards that teams can trust and use."],
+    ["04", "Technical Workshops", "Help your team understand AI fundamentals, Git, GitHub, deployment, and responsible experimentation."]
+  ],
+  "process": [["01", "Discover", "Clarify the opportunity, users, constraints, and success metrics."], ["02", "Design", "Shape the experience, technical direction, and smallest useful prototype."], ["03", "Deliver", "Build, test, document, and deploy a reliable product your team can grow."]],
+  "testimonial": {"quote": "Rizwan brought clarity to a complicated AI idea and helped us turn it into a product our customers actually use.", "name": "Maya Chen", "role": "VP Product, Northstar Labs"},
+  "projects": [
+    {"type":"AI Platform", "name":"Signal Intelligence", "description":"A research workspace that turns documents into cited insights.", "impact":"42% faster research", "tags":["RAG","Python","LLMs"]},
+    {"type":"Conversational AI", "name":"CarePath Assistant", "description":"A guided assistant for clear and useful service information.", "impact":"18k monthly conversations", "tags":["NLP","UX","FastAPI"]},
+    {"type":"Machine Learning", "name":"Forecast Studio", "description":"A transparent forecasting dashboard for better planning.", "impact":"31% lower forecast error", "tags":["Python","Data","ML"]}
+  ]
+}
