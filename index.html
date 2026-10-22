@@ -1,207 +1,189 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Muhammad Rizwan — Financial Analyst &amp; Data Analyst</title>
+  <meta name="description" content="Portfolio of Muhammad Rizwan — Financial Analyst & Data Analyst specializing in dashboards, financial reporting, and automation." />
 
-    <title>AI Developer Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- Lucide Icons (CDN) -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Manrope:wght@400;600;700;800&display=swap"
-        rel="stylesheet"
-    >
-
-    <!-- Main Stylesheet -->
-    <link rel="stylesheet" href="styles.css">
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
 
-    <!-- ==============================
-         Header & Navigation
-    =============================== -->
+  <!-- ======================= NAVBAR ======================= -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo">Rizwan<span>.</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
 
-    <header>
-        <a class="brand" href="#top">
-            <b id="initials"></b>
-            <span id="brand"></span>
+  <!-- ======================= HERO ======================= -->
+  <section class="hero section" id="hero">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="container hero-content">
+      <p class="hero-greeting"><span class="wave">👋</span> Hello, I'm</p>
+      <h1>Muhammad <span class="highlight">Rizwan</span></h1>
+      <p class="role">
+        <span id="typed-text"></span><span class="typed-cursor">|</span>
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i data-lucide="briefcase" style="width:18px;height:18px"></i> View Projects
         </a>
-
-        <nav>
-            <a href="#work">Work</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
-
-        <a id="github" target="_blank" rel="noopener noreferrer">
-            GitHub ↗
+        <a href="#contact" class="btn btn-outline">
+          <i data-lucide="send" style="width:18px;height:18px"></i> Get in Touch
         </a>
-    </header>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number" data-count="3">0+</div>
+          <div class="stat-label">Years Exp.</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="20">0+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number" data-count="6">0+</div>
+          <div class="stat-label">Tools</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ======================= ABOUT ======================= -->
+  <section class="section" id="about">
+    <div class="container">
+      <span class="section-label reveal">About Me</span>
+      <h2 class="section-title reveal">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image">📊</div>
+        </div>
+        <div class="about-text reveal">
+          <p id="about-summary"></p>
+          <div class="about-highlights" id="about-highlights"></div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- ==============================
-         Main Content
-    =============================== -->
+  <!-- ======================= EXPERIENCE ======================= -->
+  <section class="section" id="experience">
+    <div class="container">
+      <span class="section-label reveal">Experience</span>
+      <h2 class="section-title reveal">Where I've Worked</h2>
+      <p class="section-subtitle reveal">My professional journey through finance and data analytics.</p>
+      <div class="timeline reveal" id="timeline"></div>
+    </div>
+  </section>
 
-    <main id="top">
+  <!-- ======================= SKILLS ======================= -->
+  <section class="section" id="skills">
+    <div class="container">
+      <span class="section-label reveal">Skills</span>
+      <h2 class="section-title reveal">My Toolkit</h2>
+      <p class="section-subtitle reveal">The tools and technologies I use to deliver data-driven results.</p>
+      <div class="skills-grid reveal" id="skills-grid"></div>
+    </div>
+  </section>
 
-        <!-- Hero Section -->
+  <!-- ======================= SERVICES ======================= -->
+  <section class="section" id="services">
+    <div class="container">
+      <span class="section-label reveal">Services</span>
+      <h2 class="section-title reveal">What I Offer</h2>
+      <p class="section-subtitle reveal">End-to-end analytical solutions tailored to your business needs.</p>
+      <div class="services-grid" id="services-grid"></div>
+    </div>
+  </section>
 
-        <section class="hero">
-            <div>
-                <p class="eyebrow">
-                    AI DEVELOPER / BUILDER / LEARNER
-                </p>
+  <!-- ======================= PROJECTS ======================= -->
+  <section class="section" id="projects">
+    <div class="container">
+      <span class="section-label reveal">Projects</span>
+      <h2 class="section-title reveal">Featured Work</h2>
+      <p class="section-subtitle reveal">Selected case studies from my analytics and reporting portfolio.</p>
+      <div class="projects-filter reveal" id="projects-filter"></div>
+      <div class="projects-grid" id="projects-grid"></div>
+    </div>
+  </section>
 
-                <h1 id="role"></h1>
+  <!-- ======================= CONTACT ======================= -->
+  <section class="section" id="contact">
+    <div class="container">
+      <span class="section-label reveal">Contact</span>
+      <h2 class="section-title reveal">Let's Connect</h2>
+      <p class="section-subtitle reveal">Have a project in mind or just want to chat? Reach out!</p>
+      <div class="contact-wrapper">
+        <div class="contact-info reveal">
+          <h3>Reach me directly</h3>
+          <p>I'm always open to discussing data analytics projects, financial consulting, or collaboration opportunities.</p>
+          <div class="contact-links" id="contact-links"></div>
+        </div>
+        <form class="contact-form reveal" id="contact-form" onsubmit="handleFormSubmit(event)">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" placeholder="john@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="justify-content:center">
+            <i data-lucide="send" style="width:16px;height:16px"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
 
-                <p id="intro" class="intro"></p>
+  <!-- ======================= FOOTER ======================= -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <strong>Muhammad Rizwan</strong> · <span class="heart">♥</span> · 2024</p>
+      <div class="footer-socials">
+        <a href="https://github.com/Mrizwan0007" target="_blank" rel="noopener" aria-label="GitHub">
+          <i data-lucide="github" style="width:18px;height:18px"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-rizwan-data-analyst/" target="_blank" rel="noopener" aria-label="LinkedIn">
+          <i data-lucide="linkedin" style="width:18px;height:18px"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 
-                <a class="button" href="#work">
-                    Explore my work
-                </a>
+  <!-- Scroll-to-top -->
+  <button class="scroll-top" id="scrollTopBtn" aria-label="Scroll to top">
+    <i data-lucide="arrow-up" style="width:20px;height:20px"></i>
+  </button>
 
-                <a class="button ghost" href="#contact">
-                    Let's connect
-                </a>
-            </div>
-
-            <div class="orb">
-                AI
-            </div>
-        </section>
-
-
-        <!-- Statistics Section -->
-
-        <section class="stats" id="stats"></section>
-
-
-        <!-- ==============================
-             01 / Selected Work
-        =============================== -->
-
-        <section id="work">
-            <p class="eyebrow">
-                01 / SELECTED WORK
-            </p>
-
-            <h2>
-                Intelligence, made useful.
-            </h2>
-
-            <p class="muted">
-                Products at the intersection of intelligence,
-                design, and engineering.
-            </p>
-
-            <div class="projects" id="projects"></div>
-        </section>
-
-
-        <!-- ==============================
-             02 / Services
-        =============================== -->
-
-        <section id="services">
-            <p class="eyebrow">
-                02 / SERVICES
-            </p>
-
-            <h2>
-                From first question
-                <br>
-                to real-world impact.
-            </h2>
-
-            <div class="services" id="services-list"></div>
-        </section>
-
-
-        <!-- ==============================
-             03 / About & Approach
-        =============================== -->
-
-        <section id="about" class="about">
-            <div>
-                <p class="eyebrow">
-                    03 / THE APPROACH
-                </p>
-
-                <h2>
-                    Building with purpose.
-                </h2>
-
-                <p class="muted" id="about-copy"></p>
-            </div>
-
-            <div class="skills" id="skills"></div>
-        </section>
-
-
-        <!-- ==============================
-             04 / Work Process
-        =============================== -->
-
-        <section id="process">
-            <p class="eyebrow">
-                04 / HOW I WORK
-            </p>
-
-            <div class="process" id="process-list"></div>
-
-            <blockquote id="quote"></blockquote>
-
-            <cite id="quote-by"></cite>
-        </section>
-
-
-        <!-- ==============================
-             05 / Contact
-        =============================== -->
-
-        <section id="contact" class="contact">
-            <p class="eyebrow">
-                05 / START A CONVERSATION
-            </p>
-
-            <h2>
-                Have a meaningful problem to solve?
-            </h2>
-
-            <p class="muted">
-                Tell me what you are building. I am always
-                interested in thoughtful conversations about
-                AI and products.
-            </p>
-
-            <a id="email" class="email"></a>
-        </section>
-
-    </main>
-
-
-    <!-- ==============================
-         Footer
-    =============================== -->
-
-    <footer>
-        <span>
-            Designed and built with curiosity.
-        </span>
-
-        <span id="footer"></span>
-    </footer>
-
-
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-
+  <!-- JS -->
+  <script src="script.js"></script>
 </body>
-
 </html>

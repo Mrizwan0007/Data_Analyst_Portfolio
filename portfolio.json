@@ -1,26 +1,130 @@
 {
-  "siteTitle": "Muhammad Rizwan | Data Analyst",
-  "name": "Rizwan",
-  "initials": "MR",
-  "role": "Data Analyst & AI Enthusiast",
-  "email": "mhdrizwan0007@gmail.com",
-  "intro": "I design and build intelligent products that turn complex data into useful experiences.",
-  "about": "I build practical Dashboards, products with a focus on generative AI, machine learning, thoughtful UX, and reliable engineering.",
+  "name": "Muhammad Rizwan",
+  "title": "Financial Analyst & Data Analyst",
+  "tagline": "Transforming raw data into strategic financial insights",
+  "email": "rizwan.analyst@outlook.com",
   "github": "https://github.com/Mrizwan0007",
   "linkedin": "https://www.linkedin.com/in/muhammad-rizwan-data-analyst/",
-  "stats": [["04+", "Years building"], ["28", "Projects shipped"], ["12", "AI experiments"]],
-  "skills": [["✦", "Generative AI", "Advanced"], ["⌘", "Python & APIs", "Advanced"], ["◈", "Data & ML", "Advanced"], ["◌", "Product Design", "Strong"]],
-  "services": [
-    ["01", "AI Product Strategy", "Turn a promising AI idea into a clear roadmap, validated use case, and measurable product plan."],
-    ["02", "Generative AI Systems", "Build reliable RAG assistants, copilots, evaluation pipelines, and production-ready LLM workflows."],
-    ["03", "ML Engineering", "Design data pipelines, forecasting models, APIs, and dashboards that teams can trust and use."],
-    ["04", "Technical Workshops", "Help your team understand AI fundamentals, Git, GitHub, deployment, and responsible experimentation."]
+  "about": {
+    "summary": "Results-driven Financial Analyst and Data Analyst with extensive experience in financial reporting, data visualization, and business intelligence. I specialize in transforming complex datasets into actionable insights that drive strategic decision-making. With a strong foundation in finance and a passion for data-driven solutions, I bridge the gap between raw numbers and business outcomes.",
+    "highlights": [
+      "Expert in building interactive dashboards and financial models",
+      "Proficient in Python, SQL, Power BI, and advanced Excel",
+      "Experienced in automating reporting workflows and ETL pipelines",
+      "Strong background in financial analysis, budgeting, and forecasting"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Appedology",
+      "role": "Financial Analyst",
+      "period": "2023 — Present",
+      "description": "Lead financial reporting and data analysis initiatives. Build automated dashboards for revenue tracking, expense monitoring, and KPI analysis. Collaborate with cross-functional teams to deliver data-driven business strategies.",
+      "achievements": [
+        "Automated monthly financial reports reducing manual effort by 60%",
+        "Built Power BI dashboards tracking 15+ KPIs across departments",
+        "Streamlined budget forecasting with Python-based predictive models"
+      ]
+    },
+    {
+      "company": "Active8 Wireless",
+      "role": "Data Analyst",
+      "period": "2022 — 2023",
+      "description": "Performed data extraction, transformation, and analysis to support business operations. Created comprehensive reports and visualizations for management decision-making.",
+      "achievements": [
+        "Developed SQL queries for complex data extraction across multiple databases",
+        "Created interactive Excel dashboards for sales and inventory tracking",
+        "Implemented data quality checks reducing reporting errors by 40%"
+      ]
+    },
+    {
+      "company": "ABIC",
+      "role": "Junior Financial Analyst",
+      "period": "2021 — 2022",
+      "description": "Supported senior analysts in financial modeling, variance analysis, and reporting. Maintained financial databases and assisted in audit preparation.",
+      "achievements": [
+        "Assisted in preparing quarterly financial statements and variance reports",
+        "Maintained and updated financial databases with 99.5% accuracy",
+        "Automated routine data entry tasks saving 10+ hours per week"
+      ]
+    }
   ],
-  "process": [["01", "Discover", "Clarify the opportunity, users, constraints, and success metrics."], ["02", "Design", "Shape the experience, technical direction, and smallest useful prototype."], ["03", "Deliver", "Build, test, document, and deploy a reliable product your team can grow."]],
-  "testimonial": {"quote": "Rizwan brought clarity to a complicated AI idea and helped us turn it into a product our customers actually use.", "name": "Maya Chen", "role": "VP Product, Northstar Labs"},
+  "skills": [
+    { "name": "Microsoft Excel", "level": 95, "category": "Analytics" },
+    { "name": "Python", "level": 85, "category": "Programming" },
+    { "name": "Power BI", "level": 90, "category": "Visualization" },
+    { "name": "Power Query", "level": 88, "category": "ETL" },
+    { "name": "DAX", "level": 85, "category": "Analytics" },
+    { "name": "SQL", "level": 88, "category": "Database" }
+  ],
+  "services": [
+    {
+      "icon": "📊",
+      "title": "Interactive Dashboards",
+      "description": "Custom Power BI and Excel dashboards that provide real-time visibility into your business metrics, KPIs, and financial performance."
+    },
+    {
+      "icon": "📈",
+      "title": "Financial Reporting",
+      "description": "Comprehensive financial reports including P&L statements, balance sheets, cash flow analysis, and budget variance reports."
+    },
+    {
+      "icon": "⚙️",
+      "title": "Workflow Automation",
+      "description": "Automate repetitive reporting tasks, data pipelines, and ETL processes using Python, Power Query, and VBA macros."
+    },
+    {
+      "icon": "🔍",
+      "title": "Data Analysis & Insights",
+      "description": "Deep-dive analysis of business data to uncover trends, patterns, and actionable insights that drive strategic decisions."
+    },
+    {
+      "icon": "🗄️",
+      "title": "Database Management",
+      "description": "Design, query, and maintain SQL databases. Build efficient data models and optimize query performance for reporting."
+    },
+    {
+      "icon": "📉",
+      "title": "Financial Modeling",
+      "description": "Build robust financial models for forecasting, valuation, scenario analysis, and investment decision support."
+    }
+  ],
   "projects": [
-    {"type":"AI Platform", "name":"Signal Intelligence", "description":"A research workspace that turns documents into cited insights.", "impact":"42% faster research", "tags":["RAG","Python","LLMs"]},
-    {"type":"Conversational AI", "name":"CarePath Assistant", "description":"A guided assistant for clear and useful service information.", "impact":"18k monthly conversations", "tags":["NLP","UX","FastAPI"]},
-    {"type":"Machine Learning", "name":"Forecast Studio", "description":"A transparent forecasting dashboard for better planning.", "impact":"31% lower forecast error", "tags":["Python","Data","ML"]}
+    {
+      "title": "Sales Performance Dashboard",
+      "category": "Power BI",
+      "description": "Interactive Power BI dashboard tracking sales KPIs across regions, products, and time periods with drill-down capabilities.",
+      "tags": ["Power BI", "DAX", "SQL"]
+    },
+    {
+      "title": "Financial Forecasting Model",
+      "category": "Python",
+      "description": "Python-based forecasting model using time-series analysis to predict revenue and expenses with 92% accuracy.",
+      "tags": ["Python", "Pandas", "Statsmodels"]
+    },
+    {
+      "title": "Automated Monthly Reports",
+      "category": "Excel / VBA",
+      "description": "VBA-powered Excel workbook that auto-generates monthly P&L, balance sheet, and cash flow reports from raw data.",
+      "tags": ["Excel", "VBA", "Power Query"]
+    },
+    {
+      "title": "HR Analytics Dashboard",
+      "category": "Power BI",
+      "description": "End-to-end HR analytics solution visualizing attrition, hiring trends, and workforce demographics.",
+      "tags": ["Power BI", "DAX", "Power Query"]
+    },
+    {
+      "title": "Inventory Optimization Analysis",
+      "category": "SQL / Python",
+      "description": "SQL and Python analysis identifying slow-moving stock and optimizing reorder points, reducing carrying costs by 18%.",
+      "tags": ["SQL", "Python", "Excel"]
+    },
+    {
+      "title": "Budget Variance Tracker",
+      "category": "Excel",
+      "description": "Dynamic Excel dashboard comparing actuals vs. budget with conditional formatting and automated alerts for variances.",
+      "tags": ["Excel", "Power Query", "DAX"]
+    }
   ]
 }
